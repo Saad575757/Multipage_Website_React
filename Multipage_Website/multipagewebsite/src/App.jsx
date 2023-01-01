@@ -7,10 +7,10 @@ import Services from './Services'
 const App = () => {
   return (
     <>
-    <Home />
-    <About />
-    <Services />
-    <Contact />
+      <Home />
+      <About />
+      <Services />
+      <Contact />
     </>
   )
 }
