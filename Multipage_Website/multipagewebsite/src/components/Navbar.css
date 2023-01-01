@@ -1,0 +1,23 @@
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration-line: none;
+    padding-right: 30px;
+    font-size: 20px;
+}
+.home{
+    text-decoration: none;
+    color: black;
+}
+.about{
+    text-decoration: none;
+    color: black;
+}
+.service{
+    text-decoration: none;
+    color: black;
+}
+.contact{
+    text-decoration: none;
+    color: black;
+}
