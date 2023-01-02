@@ -9,6 +9,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import './App.css'
 import { ThemeProvider } from 'styled-components';
+import { Globalstyle } from './GlobalStyle'
 
 const App = () => {
   const theme = {
@@ -37,6 +38,7 @@ const App = () => {
     <>
       <ThemeProvider theme={theme}>
         <Header />
+        <Globalstyle/>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
