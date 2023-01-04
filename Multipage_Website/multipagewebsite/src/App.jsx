@@ -38,7 +38,7 @@ const App = () => {
     <>
       <ThemeProvider theme={theme}>
         <Header />
-        <Globalstyle/>
+        <Globalstyle />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
