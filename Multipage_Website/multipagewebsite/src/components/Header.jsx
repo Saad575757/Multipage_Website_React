@@ -14,7 +14,7 @@ const Header = () => {
         <div className='flex'>
           <NavLink to='/' className=''>
             <img src='./images/logo.png' alt='logo' className='img'></img>
-          </NavLink>
+          </NavLink >
           <Navbar />
         </div>
       </Mainheader>
