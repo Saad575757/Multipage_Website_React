@@ -11,11 +11,11 @@ const Header = () => {
   return (
     <>
       <Mainheader>
-          <NavLink to='/' className=''>
-            <img src='./images/logo.png' alt='logo' className='img'></img>
-          </NavLink >
-          <Navbar />
-        
+        <NavLink to='/' className=''>
+          <img src='./images/logo.png' alt='logo' className='img'></img>
+        </NavLink >
+        <Navbar />
+
       </Mainheader>
 
 
