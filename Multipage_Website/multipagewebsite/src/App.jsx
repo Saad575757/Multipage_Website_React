@@ -7,7 +7,6 @@ import Error from './Error'
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header'
 import Footer from './components/Footer'
-import './App.css'
 import { ThemeProvider } from 'styled-components';
 import { Globalstyle } from './GlobalStyle'
 
