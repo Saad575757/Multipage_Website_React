@@ -1,5 +1,7 @@
 import React from 'react'
-import styled from 'styled-components'
+import { NavLink } from 'react-router-dom';
+import styled from 'styled-components';
+import { Button } from '../styles/Button';
 
 const HeroSection = () => {
   return (
@@ -7,11 +9,13 @@ const HeroSection = () => {
       <Wrapper>
         <div className="container grid grid-two-column">
           <div className="section-data-hero">
-            <p>This is me</p>
+            <p className='data'>This is me</p>
             <h1 className='heading'>Saad</h1>
-            <p className='Paragraph'>I'm Frontend Webdeveloper and App developer.</p>
-
-          </div>
+            <p className='paragraph'>I'm Frontend Webdeveloper and App developer.</p>
+            </div>
+            <Button className='btn hireme'>
+              <NavLink to='/contact'>Hire Me</NavLink>
+            </Button>
           <div className="section-data-image"></div>
         </div>
       </Wrapper>
