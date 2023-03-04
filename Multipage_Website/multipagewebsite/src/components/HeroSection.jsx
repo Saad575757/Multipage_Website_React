@@ -16,7 +16,11 @@ const HeroSection = () => {
             <Button className='btn hireme'>
               <NavLink to='/contact'>Hire Me</NavLink>
             </Button>
-          <div className="section-data-image"></div>
+          <div className="section-data-image">
+            <picture>
+              <img src='./images/ok.png'></img>
+            </picture>
+          </div>
         </div>
       </Wrapper>
     </>
