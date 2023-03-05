@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 import { Button } from '../styles/Button';
 
-const HeroSection = ({name,image}) => {
+const HeroSection = ({ name, image }) => {
   return (
     <>
       <Wrapper>
@@ -15,8 +15,8 @@ const HeroSection = ({name,image}) => {
             <Button className='btn hireme'>
               <NavLink to='/contact'>Hire Me</NavLink>
             </Button>
-            </div>
-            
+          </div>
+
           <div className="section-data-image">
             <picture>
               <img src={image} className='img'></img>
@@ -27,7 +27,7 @@ const HeroSection = ({name,image}) => {
     </>
   )
 }
-const Wrapper= styled.section`
+const Wrapper = styled.section`
   padding: 5rem 0;
   
   .section-data-image{
@@ -54,7 +54,7 @@ const Wrapper= styled.section`
     text-transform:uppercase;
     font-weight:500;
     font-size:1.5rem;
-    color: ${({theme})=>theme.colors.helper};
+    color: ${({ theme }) => theme.colors.helper};
   }
   .btn{
     max-width: 16rem;
@@ -66,5 +66,5 @@ const Wrapper= styled.section`
     justify-content:center;
   }
 `
-;
+  ;
 export default HeroSection
