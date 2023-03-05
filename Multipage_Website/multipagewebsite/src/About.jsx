@@ -3,12 +3,12 @@ import HeroSection from './components/HeroSection'
 
 const About = () => {
 
-  const data={
-    name:'Saad Khan',
-    image:'./images/ok.png',
+  const data = {
+    name: 'Saad Khan',
+    image: './images/ok.png',
   }
   return (
-    <HeroSection {...data}/>
+    <HeroSection {...data} />
   )
 }
 
