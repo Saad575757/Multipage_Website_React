@@ -3,14 +3,14 @@ import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 import { Button } from '../styles/Button';
 
-const HeroSection = () => {
+const HeroSection = ({name,image}) => {
   return (
     <>
       <Wrapper>
         <div className="container grid grid-two-column">
           <div className="section-data-hero">
             <p className='data'>This is me</p>
-            <h1 className='heading'>Saad Khan</h1>
+            <h1 className='heading'>{name}</h1>
             <p className='paragraph'>I'm Frontend Webdeveloper and App developer. I'm currently work ReactJS and Flutter.</p>
             <Button className='btn hireme'>
               <NavLink to='/contact'>Hire Me</NavLink>
@@ -19,7 +19,7 @@ const HeroSection = () => {
             
           <div className="section-data-image">
             <picture>
-              <img src='./images/developer.png' className='img'></img>
+              <img src={image} className='img'></img>
             </picture>
           </div>
         </div>
@@ -28,7 +28,7 @@ const HeroSection = () => {
   )
 }
 const Wrapper= styled.section`
-  padding: 9rem 0;
+  padding: 5rem 0;
   
   .section-data-image{
     display: flex;
@@ -60,7 +60,7 @@ const Wrapper= styled.section`
     max-width: 16rem;
   }
   .section-data-hero{
-    margin-left:100px;
+    margin-left:50px;
     display: flex;
     flex-direction:column;
     justify-content:center;

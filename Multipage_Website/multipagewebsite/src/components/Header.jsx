@@ -11,7 +11,7 @@ const Header = () => {
     <>
       <Mainheader>
         <NavLink to='/' className=''>
-          <img src='./images/logo.png' alt='logo' className='img'></img>
+          <img src='./images/ok.png' alt='logo' className='img'></img>
         </NavLink >
         <Navbar />
 
@@ -33,7 +33,7 @@ const Mainheader = styled.header`
 
     .img{
       height: auto;
-      max-width: 4%;
+      max-width: 40%;
     }
 
   `;
