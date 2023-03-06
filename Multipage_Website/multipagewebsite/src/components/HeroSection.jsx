@@ -67,4 +67,4 @@ const Wrapper = styled.section`
   }
 `
   ;
-export default HeroSection
+export default HeroSection;
