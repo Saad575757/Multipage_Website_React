@@ -5,7 +5,7 @@ import React, { useContext } from "react";
 const AppContext= React.createContext();
 
 const  AppProvider= ({children})=>{
-    return <AppContext.Provider value='Saad,18'> 
+    return <AppContext.Provider value={{fname:'Saad', Age:'22'}}> 
         {children}
     </AppContext.Provider>
 

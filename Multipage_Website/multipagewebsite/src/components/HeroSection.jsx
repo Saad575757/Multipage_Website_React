@@ -7,7 +7,7 @@ import { UseGlobalContext } from '../Context';
 
 const HeroSection = ({ name, image }) => {
   
-  const firstName= UseGlobalContext();
+  const {fname, Age}= UseGlobalContext();
   return (
     <>
       <Wrapper>
@@ -15,7 +15,7 @@ const HeroSection = ({ name, image }) => {
           <div className="section-data-hero">
             <p className='data'>This is me. </p>
             <h1 className='heading'>{name}</h1>
-            <p className='paragraph'>I'm {firstName}Frontend Webdeveloper and App developer. I'm currently work ReactJS and Flutter.</p>
+            <p className='paragraph'>It's me {fname}, {Age} Frontend Webdeveloper and App developer. I'm currently work ReactJS and Flutter.</p>
             <Button className='btn hireme'>
               <NavLink to='/contact'>Hire Me</NavLink>
             </Button>
