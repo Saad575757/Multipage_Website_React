@@ -1,14 +1,14 @@
 //Warehouse 
 //provider
 //Consumer /useContext hook
-import React, { useContext, useEffect, useReducer } from "react";
+import React, { useContext, useReducer } from "react";
 import { reducer } from "./reducer";
 const AppContext= React.createContext();
 const initialstate={
     name:'',
     image:'',
 }
-const API="https://thapareactapi"
+
 const  AppProvider= ({children})=>{
     
     const [state, dispatch]= useReducer(reducer, initialstate);
@@ -34,9 +34,7 @@ const updateAboutPage=()=>{
         }
     })
 }
-useEffect(()=>{
-    getServices(API);
-},[]);
+
     return <AppContext.Provider value={{...state, updateHomePage,updateAboutPage}}> 
         {children}
     </AppContext.Provider>
