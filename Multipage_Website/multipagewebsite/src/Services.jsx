@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import Cards from './Cards';
-import data from './data';
+
 
 
 const Services = () => {
