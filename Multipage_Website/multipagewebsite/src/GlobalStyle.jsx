@@ -20,7 +20,7 @@ export const Globalstyle= createGlobalStyle`
  h2{
     color:${({theme})=>theme.colors.heading};
     font-size: 4.4rem; 
-    font-weight: 300;
+    font-weight: bold;
     white-space: normal;
     text-align: center;
 
