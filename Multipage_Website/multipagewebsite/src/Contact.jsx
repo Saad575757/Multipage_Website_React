@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const Contact = () => {
   return (
     <Wrapper>
-
+      <h2 className='contact'>Our Contact</h2>
     </Wrapper>
   )
 }

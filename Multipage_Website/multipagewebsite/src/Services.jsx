@@ -9,7 +9,7 @@ const Services = () => {
   return (
 
     <Container className='container'>
-      <h1 className='Heading'>Our Services</h1>
+      <h2 className='Heading'>Our Services</h2>
     <Cards  />
     </Container>
   )
