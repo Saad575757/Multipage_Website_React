@@ -61,5 +61,29 @@ export const Globalstyle= createGlobalStyle`
    grid-template-columns:repeat(4,1fr);
    
  }
+ input,textarea{
+   max-width: 50rem;
+   color:${({theme})=>theme.colors.black};
+   padding: 1.6rem 2.4rem;
+   border: 1px solid ${({theme})=>theme.colors.border};
+   text-transform: uppercase;
+   margin-bottom: 3.3rem;
+
+   
+ }
+ input[type='submit']{
+   max-width: 16rem;
+   margin-top: 2rem;
+   background-color:${({theme})=>theme.colors.btn};
+   color:${({theme})=>theme.colors.white};
+   padding: 1.4rem 2.2rem;
+   border-style: solid;
+   border-width: 0.1rem;
+   text-transform:uppercase;
+   font-size: 1.8rem;
+   cursor: pointer;
+
+   
+ }
  
 `;
