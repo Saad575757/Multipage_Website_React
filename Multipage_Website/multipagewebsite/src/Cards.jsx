@@ -9,8 +9,7 @@ const Cards = () => {
     <div className="card-container">
         <div className="single-card">
             {data.map((user)=>(
-                <div className="user">
-                    
+                <div className="user">                    
                     <p className='title'>{user.title}</p>
                     <p className='description'>{user.description}</p>
                     <img src={user.image} alt='pic' className='image'></img>
