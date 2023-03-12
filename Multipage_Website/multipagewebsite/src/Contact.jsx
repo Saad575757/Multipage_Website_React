@@ -11,7 +11,7 @@ const Contact = () => {
           <form action='#' method='POST' className='contact-input'>
             <input type='text' name='username' placeholder='username' autoComplete='off' required />
             <input type='email' name='Email' placeholder='Email' autoComplete='off' required />
-            <textarea name='message' cols='30' rows='6' autoComplete='off' required />
+            <textarea name='message' cols='30' rows='6' autoComplete='off' placeholder='Message' required />
             <input type='submit' value='send' className='button' />
           </form>
         </div>
