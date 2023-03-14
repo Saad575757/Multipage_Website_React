@@ -41,7 +41,7 @@ const Wrapper = styled.section`
     input[type="submit"]{
       cursor: pointer;
       transition: all 0.2s;
-
+      
       &:hover{
         background-color: ${({theme})=>theme.colors.white};
         border: 1px solid ${({theme})=>theme.colors.btn};
