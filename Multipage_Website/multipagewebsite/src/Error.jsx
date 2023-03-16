@@ -1,9 +1,13 @@
 import React from 'react'
+import styled from 'styled-components'
 
 const Error = () => {
   return (
-    <div>No page found</div>
+    <Wrapper>
+
+    </Wrapper>
   )
 }
-
+const Wrapper=styled.section`
+`;
 export default Error
