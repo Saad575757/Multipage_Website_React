@@ -2,6 +2,10 @@ import React from 'react'
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components'
 import { Button } from '../styles/Button';
+import { FaDiscord } from "react-icons/fa";
+import { FaInstagram} from "react-icons/fa";
+import {FaFacebook} from "react-icons/fa";
+
 
 const Footer = () => {
   return (
@@ -23,8 +27,27 @@ const Footer = () => {
         <div className='container grid grid-four-column'>
           <div className='footer-about'>
             <h3>Saad Khan</h3>
-            <p>Frontend Webdeveloper And Appdeveloper</p>
-            
+            <p>Frontend Webdeveloper And Appdeveloper</p>  
+          </div>
+          <div className='footer-subscribe'>
+            <h3>Subscribe to our latest updates.</h3>
+            <form action='#'>
+              <input type="email" required  autoComplete='Off' placeholder='Email'/>
+              <input type='submit' value='Subscribe' />
+
+            </form>
+          </div>
+          <div className="footer-social">
+            <h3>follow us</h3>
+            <div className='footer-social-icons'>
+              <FaDiscord className='icons' />
+            </div>
+            <div className='footer-social-icons'>
+              <FaInstagram className='icons' />
+            </div>
+            <div className='footer-social-icons'>
+              <FaFacebook className='icons' />
+            </div>
           </div>
 
         </div>
@@ -58,6 +81,9 @@ const Wrapper=styled.section`
     }
     p{
       color: ${({theme})=>theme.colors.white};
+    }
+    .footer-social-icons{
+      
     }
 
   }
