@@ -23,7 +23,7 @@ const Footer = () => {
         <div className='container grid grid-four-column'>
           <div className='footer-about'>
             <h3>Saad Khan</h3>
-            <p>Frontend Webdeveloper</p>
+            <p>Frontend Webdeveloper And Appdeveloper</p>
             
           </div>
 
@@ -52,6 +52,13 @@ const Wrapper=styled.section`
   footer{
     padding: 14rem 0 9rem 0;
     background-color: ${({theme})=>theme.colors.footer_bg};
+    h3{
+      color: ${({theme})=>theme.colors.hr};
+      margin-bottom: 2.4rem;
+    }
+    p{
+      color: ${({theme})=>theme.colors.white};
+    }
 
   }
 `;
