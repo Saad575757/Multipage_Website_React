@@ -39,6 +39,7 @@ const Footer = () => {
           </div>
           <div className="footer-social">
             <h3>follow us</h3>
+            <div className='container grid grid-four-column'>
             <div className='footer-social-icons'>
               <FaDiscord className='icons' />
             </div>
@@ -47,6 +48,7 @@ const Footer = () => {
             </div>
             <div className='footer-social-icons'>
               <FaFacebook className='icons' />
+            </div>
             </div>
           </div>
 
@@ -82,7 +84,7 @@ const Wrapper = styled.section`
     p{
       color: ${({ theme }) => theme.colors.white};
     }
-    .footer-social-icons{
+    /* .footer-social-icons{
       display: flex;
       gap: 2rem;
       div{
@@ -96,7 +98,7 @@ const Wrapper = styled.section`
           cursor: pointer;
         }
       }
-    }
+    } */
 
   }
 `;
