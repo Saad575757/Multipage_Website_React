@@ -39,15 +39,18 @@ const Footer = () => {
           </div>
           <div className="footer-social">
             <h3>follow us on socialmedia platform</h3>
-            <div className='container grid grid-four-column'>
+            <div className='container grid grid-three-column'>
             <div className='footer-social-icons'>
-              <FaDiscord className='icons' />
+              <a href="https://github.com/Saad575757">
+              <FaDiscord className='icons' /></a>
             </div>
             <div className='footer-social-icons'>
-              <FaInstagram className='icons' />
+              <a href="https://www.instagram.com/muhammad_saad493/">
+              <FaInstagram className='icons' /></a>
             </div>
             <div className='footer-social-icons'>
-              <FaFacebook className='icons' />
+              <a href="https://www.facebook.com/profile.php?id=100008739456909">
+              <FaFacebook className='icons' /></a>
             </div>
             </div>
           </div>
@@ -83,6 +86,9 @@ const Wrapper = styled.section`
     }
     p{
       color: ${({ theme }) => theme.colors.white};
+    }
+    div{
+      
     }
     .icons{
       
